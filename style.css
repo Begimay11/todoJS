@@ -1,0 +1,98 @@
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+.newList{
+    display: none;
+}
+.addList{
+    width: 900px;
+    height: 600px;
+    background: url('https://lirp.cdn-website.com/f10536dd/dms3rep/multi/opt/shutterstock_610533473-640w.jpg') no-repeat center/cover;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: none;
+    /* position: relative; */
+}
+.todo{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background: #ad9be9;
+    position: absolute;
+    top: 285px;
+    left: 850px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+button:hover{
+    background: #4a026b;
+    color: white;
+}
+.text{
+    font-style: italic;
+    position: absolute;
+    top: 555px;
+    left: 1010px;
+    color: white;
+}
+.textName{
+    color: black;
+    text-decoration: dotted;
+}
+.newList{
+    width: 300px;
+    /* height: 300px; */
+    background: #ad9be9;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 30px;  
+}
+.parentList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.extrense-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.entranse{
+    margin-top: -50px;
+    margin-left: -20px;
+    background: transparent;
+}
+.photoImg{
+    width: 100%;
+    height: 100%;
+}
+.addTexted{
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px; 
+}
+.errName{
+    color: blue;
+    position: absolute;
+    top: 75px;
+    /* top: 200px; */
+}
+.errSirname{
+    color: blue;
+    position: absolute;
+    top: 145px;
+}
